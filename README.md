@@ -32,11 +32,13 @@ pip install folium
 import pickle
 
 with open("dados_entrada.pkl", "rb") as arquivo:
+
    X = pickle.load(arquivo)
    
 4.1) Caso deseje utilizar a base de dados do desafio basta  copiar e colar as linhas abaixo em  outra celula.
 
 with open("modelo.pkl", "rb") as arquivo:
+
     modelo = pickle.load(arquivo)
     previsao = modelo.predict(X)
 
