@@ -1,4 +1,3 @@
-# Desafio
 Desafio Cientista de Dados 
 
 Instruções para execução:
