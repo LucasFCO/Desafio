@@ -43,6 +43,7 @@ with open("modelo.pkl", "rb") as arquivo:
     previsao = modelo.predict(X)
 
 previsao = modelo.predict(X)
+
 print(len(previsao), ' - ',previsao)
 
 O modelo.plk pode ser utilizado em outros conjunto de dados, basta voltar na parte 1 e 4.
